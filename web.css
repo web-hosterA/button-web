@@ -1,0 +1,88 @@
+button {
+  margin-top: 150px;
+}
+
+div.logo {
+  display: grid;
+  grid-template-columns: 45px 125px;
+  column-gap: 12px;
+  background-color: #131313;
+  padding-right: 0;
+  width: 190px;
+  padding-left: 15px;
+  padding-top: 11px;
+}
+
+img.logo-img {
+  width: 45px;
+}
+
+p.logo-text {
+  font-family: Arial;
+  background-image: linear-gradient(to left, #ff0844 0%, #f77062 100% );
+  color: #fff;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+button.sub {
+  background-color: rgb(200, 0, 0);
+  color: #fff;
+  border: none;
+  height: 36px;
+  width: 100px;
+  border-radius: 2px;
+  margin-left: 100px;
+  transition: opacity 0.2s;
+}
+
+button.sub:hover {
+  opacity: 0.8;
+}
+
+button.sub:active {
+  opacity: 0.4;
+}
+
+button.join {
+  background-color: #fff;
+  color: rgb(6, 95, 212);
+  height: 36px;
+  width: 65px;
+  border-color: rgb(6, 95, 212);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  transition: background-color 0.2s, color 0.2s;
+  margin-left: 15px;
+}
+
+button.join:hover {
+  background-color: rgb(6, 95, 212);
+  color: #fff;
+}
+
+button.tweet {
+  background-color: rgb(29, 155, 240);
+  margin-left: 15px;
+  border: none;
+  color: #fff;
+  height: 36px;
+  width: 75px;
+  font-weight: bold;
+  border-radius: 37.5px;
+  transition: box-shadow 0.2s;
+}
+
+button.tweet:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+p.text {
+  font-family: Arial;
+  font-size: 40px;
+  margin-left: 250px;
+  margin-top: 65px;
+}
